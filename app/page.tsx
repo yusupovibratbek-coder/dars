@@ -19,6 +19,9 @@ export default function Home() {
         <Button className="text-5xl font-serif font-bold bg-blue-800 flex justify-around p-10 w-65  ">
           <Link href={'/popover'}>Button</Link>
         </Button>
+         <Button className="text-5xl font-serif font-bold bg-blue-800 flex justify-around p-10 w-65  ">
+          <Link href={'/card'}>Button</Link>
+         </Button>
       </div>
 
     </div>
