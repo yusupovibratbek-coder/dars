@@ -15,7 +15,7 @@ export default function Home() {
 
       </div>
 
-      <div>
+      <div className="flex justify-around p-10 bg-black border-white border-2 rounded-4xl ">
         <Button className="text-5xl font-serif font-bold bg-blue-800 flex justify-around p-10 w-65  ">
           <Link href={'/popover'}>Button</Link>
         </Button>
