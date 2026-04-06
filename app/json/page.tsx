@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Popover } from "@/components/ui/popover";
 import { discoverValidationDepths } from "next/dist/server/app-render/instant-validation/instant-validation";
 import Link from "next/link";
 import { json } from "stream/consumers";
@@ -24,7 +25,7 @@ export default async function Posts() {
                 ))}
             </div>
             <div>
-                
+                <Popover></Popover>
             </div>
         </div>
     )
