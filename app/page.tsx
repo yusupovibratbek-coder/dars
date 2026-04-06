@@ -20,10 +20,12 @@ export default function Home() {
           <Link href={'/popover'}>Button</Link>
         </Button>
          <Button className="text-5xl font-serif font-bold bg-blue-800 flex justify-around p-10 w-65  ">
-          <Link href={'/card'}>Button</Link>
+          <Link href={'/combobox'}>Button</Link>
          </Button>
       </div>
-
+        <div className="flex p-20 pl-20">
+          <input className="text-3xl text-black rounded-2xl border-black p-2 border-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Search now..." type="text" />
+        </div>
     </div>
   );
 }

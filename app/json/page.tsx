@@ -13,9 +13,7 @@ export default async function Posts() {
         <div className="bg-white min-h-screen">
             <div >
                 <Link href="/combobox">Combobox</Link>
-                <Link className="text-black " href="/popover">Popover</Link>
-                <Link href="/card">Card</Link>
-                <Link href="/button">Button</Link>
+               
             </div>
             <div className="">
                 <h1 className="text-4xl text-black  font-mono p-24 text-center">Postlar ro'yxati</h1>
