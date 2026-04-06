@@ -24,7 +24,10 @@ export default async function Posts() {
                     </div>
                 ))}
             </div>
-            <div>
+            <div >
+                <Popover></Popover>
+                <Popover></Popover>
+                <Popover></Popover>
                 <Popover></Popover>
             </div>
         </div>
